@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyRepository</string>
+    <string name="titulo_app">MyRepository</string>
+    <string name="input_user">Digite seu usuário:</string>
+    <string name="find_repository">Buscar por Repositorios</string>
+    <string name="erro_find">Usuário não encontrado!!!!</string>
+    <string name="saved_user">saved_user</string>
+    <string name="saved_user_default">saved_user_default</string>
+</resources>
