@@ -31,16 +31,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setupRetrofit()
         setupListener()
+        setupPreferences()
+    }
 
+    private fun setupPreferences(){
         getUser()?.let {
             binding.etUser.text = SpannableStringBuilder(it)
             getRepo(it)
         }
-    }
-
-    private fun setupPreferences(user: String){
-        saveUser(user)
-        getUser()
     }
 
     private fun getUser(): String? {
